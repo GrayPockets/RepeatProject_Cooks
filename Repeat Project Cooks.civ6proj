@@ -7,7 +7,7 @@
     <ProjectGuid>f0268880-2c3f-4fa4-8154-9cef340717be</ProjectGuid>
     <ModVersion>1</ModVersion>
     <Teaser>Cooks for Repeat Project</Teaser>
-    <Description>This mod cooks several items in "Repeat Project"[NEWLINE][NEWLINE][ICON_BULLET] ???</Description>
+    <Description>This mod cooks several items in "Repeat Project"[NEWLINE][NEWLINE][ICON_BULLET] The "Send Aid" emergency project will now repeat[NEWLINE][ICON_BULLET] Projects from DLC will now repeat, including Product creation projects[NEWLINE][NEWLINE]Mod Support[NEWLINE][ICON_BULLET] [COLOR:184,134,11,255]GrayPockets[ENDCOLOR] - More Maritime: Seaside Sectors - Arsenals is for Admirals[NEWLINE][ICON_BULLET] CIVITAS [ICON_GreatProphet] [COLOR_FLOAT_CULTURE]Resources[ENDCOLOR][NEWLINE][ICON_BULLET] Leugi's [COLOR_Civ6Green]Greenery:[ENDCOLOR] Garden District[NEWLINE][ICON_BULLET] Leugi's [COLOR_Civ6Green]Greenery:[ENDCOLOR] Preserve Rework[NEWLINE][ICON_BULLET] Sukritact's Resources</Description>
     <Authors>GrayPockets</Authors>
     <SpecialThanks>yamada</SpecialThanks>
     <AffectsSavedGames>false</AffectsSavedGames>
@@ -20,6 +20,11 @@
     <InGameActionData><![CDATA[<InGameActions><ImportFiles id="Import_RepeatProjectCooks"><Properties><LoadOrder>1</LoadOrder></Properties><File>Lua/RepeatProjectUI.lua</File></ImportFiles></InGameActions>]]></InGameActionData>
     <AssociationData><![CDATA[<Associations>
   <Dependency type="Mod" title="Repeat Project" id="d6f59cdd-07ba-42d9-9c86-5c0b2fc9eff0" />
+  <Reference type="Mod" title="[COLOR:184,134,11,255]GrayPockets[ENDCOLOR] - More Maritime: Seaside Sectors - Arsenals is for Admirals" id="2b4a12ad-b550-493e-ad19-4f8a697551cb" />
+  <Reference type="Mod" title="CIVITAS [ICON_GreatProphet] [COLOR_FLOAT_CULTURE]Resources[ENDCOLOR]" id="664d17a5-f3be-493a-9332-8e20da1166fa" />
+  <Reference type="Mod" title="Leugi's [COLOR_Civ6Green]Greenery:[ENDCOLOR] Garden District" id="1bd6e042-25c3-4584-9bc3-66f1ce3bd249" />
+  <Reference type="Mod" title="Leugi's [COLOR_Civ6Green]Greenery:[ENDCOLOR] Preserve Rework" id="4cf11700-4bc8-4581-94ea-c39dfa9585cd" />
+  <Reference type="Mod" title="Sukritact's Resources" id="37fdca0b-9275-4235-9c18-c7ec348f930e" />
 </Associations>]]></AssociationData>
     <ActionCriteriaData><![CDATA[<ActionCriteria></ActionCriteria>]]></ActionCriteriaData>
   </PropertyGroup>
